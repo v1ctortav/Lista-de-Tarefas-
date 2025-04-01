@@ -1,0 +1,105 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #8383a5;
+  border-radius: 5px;
+  border: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+}
+
+.wrapper {
+  border-radius: 5px;
+  width: 400px;
+  padding: 20px;
+  background-color: #fff;
+}
+
+form {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+form input {
+  width: 220px;
+  padding: 5px 20px;
+  border-radius: 5px;
+  border: 2px solid #000;
+}
+
+form button {
+  width: 118px;
+  margin-right: 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #4ccf98;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: all 200ms;
+  font-weight: bolder;
+}
+
+form button:hover {
+  background-color: #fff;
+  border: 2px solid #4ccf98;
+}
+
+.list-container {
+  overflow-y: scroll;
+  height: 400px;
+  padding: 5px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul li p {
+  width: 230px;
+}
+
+.delete-button {
+  width: 120px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #cf4c4c;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: all 200ms;
+  font-weight: bolder;
+  color: #fff;
+}
+
+.delete-button:hover {
+  background-color: #fff;
+  border: 2px solid #cf4c4c;
+  color: #000;
+}
