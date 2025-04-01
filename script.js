@@ -15,7 +15,7 @@ const criarItem = (value) => {
     listaUl.removeChild(li);
     salvarLista();
   };
-  li.appendChild(deleteButton);
+  li.appendChild(button);
   listaUl.appendChild(li);
 };
 
