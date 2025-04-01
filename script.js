@@ -55,7 +55,7 @@ function salvarLista() {
 }
 
 function gerarListaLocalStorage() {
-  const lista = localStorage.getItem("list");
+  const lista = localStorage.getItem("lista");
   const listaFormatada = JSON.parse(lista);
   for (let i of listaFormatada) {
     criarItem(i);
